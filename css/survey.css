@@ -1,0 +1,111 @@
+/* Survey page styles */
+
+.photo{
+  width: 60%;
+  padding: 10px;
+}
+
+form {
+  margin: 0 auto;
+  text-align: left;
+  display: inline-block;
+}
+
+input[type=text],
+input[type=email] {
+  margin-bottom: 3px;
+}
+
+input[type=text], input[type=email], input[type=submit], input[type=radio], select, textarea {
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #DDDDDD;
+}
+ 
+input[type=text]:focus, input[type=email]:hover, input[type=submit]:hover, input[type=radio]:focus, select:focus, textarea:focus {
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid rgba(81, 203, 238, 1);
+}
+
+.container{
+  text-align: center;
+}
+.newsletter{
+  text-align: right;
+
+}
+
+#fieldset {
+  border: none;
+}
+ 
+#fieldset legend {
+/*  display: none;  --> couldn't use this because it hides from screen readers, but didn't want my legends to show on the page...unsure how to fix*/
+  color: #f09c9c;
+  text-transform: uppercase;
+  font-size: 1.3em;
+  text-align: center;
+}
+
+#favemember legend {
+  display: block;
+  color: #79F2EA;
+  font-size: 1em;
+  text-transform: none;
+}
+
+
+#albumlabel,
+#albums,
+#favesonglabel,
+#favesong {
+  margin: 5px auto;
+  width: 100%;
+}
+
+#albums {
+  text-align: center; 
+}
+
+#submit {
+  border-radius: 10px;
+  padding: 5px;
+  font-size: 16px;
+  border: 3px solid #000;
+  background-color: #2d2b30;
+  font-family: 'Open Sans', sans-serif;
+  color: #F2ADAD;
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  margin-top: 0;
+}
+
+#submit:hover {
+  box-shadow: none;
+}
+
+#signup label {
+  font-size: 14px;
+}
+
+#submitform {
+  margin-bottom: 5px;
+  margin-top: 18px;
+  font-size: 14px;
+  color: #fff;
+}
+
+
+
+/* Styles for larger screens */
+@media screen and (min-width: 840px) {
+  .photo{
+    width: 40%;
+  }
+}
