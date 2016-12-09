@@ -42,11 +42,11 @@ input[type=text]:focus, input[type=email]:hover, input[type=submit]:hover, input
 
 }
 
-#fieldset {
+.fieldset {
   border: none;
 }
  
-#fieldset legend {
+.fieldset legend {
 /*  display: none;  --> couldn't use this because it hides from screen readers, but didn't want my legends to show on the page...unsure how to fix*/
   color: #f09c9c;
   text-transform: uppercase;
